@@ -1,0 +1,6 @@
+{
+  "name": "JanSetu",
+  "description": "Indore Municipal Corporation - AI-powered decision support for complex civic grievances with dynamic replanning, task dependency tracking, and human-in-the-loop escalation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
