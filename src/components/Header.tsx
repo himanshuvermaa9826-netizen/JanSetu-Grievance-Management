@@ -9,6 +9,7 @@ import {
   RotateCcw
 } from 'lucide-react';
 import { NavigationTab } from '../types';
+import indoreCivicEmblem from '../assets/images/indore_civic_emblem_1789903869116.jpg';
 
 interface HeaderProps {
   currentTab: NavigationTab;
@@ -53,7 +54,7 @@ export const Header: React.FC<HeaderProps> = ({
               className="flex items-center gap-2.5 sm:gap-3 cursor-pointer select-none group"
             >
               <img
-                src="/src/assets/images/indore_civic_emblem_1789903869116.jpg"
+                src={indoreCivicEmblem}
                 alt="Indore Municipal Corporation Emblem"
                 referrerPolicy="no-referrer"
                 className="w-10 h-10 sm:w-11 sm:h-11 object-contain rounded-md"

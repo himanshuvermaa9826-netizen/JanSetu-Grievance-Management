@@ -21,6 +21,7 @@ import {
   AlertTriangle 
 } from 'lucide-react';
 import { NavigationTab } from '../types';
+import rajwadaHeroImage from '../assets/images/rajwada_palace_indore_1789903853353.jpg';
 
 interface LandingPageProps {
   onNavigate: (tab: NavigationTab) => void;
@@ -41,7 +42,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       <section 
         className="relative w-full min-h-[580px] sm:min-h-[640px] lg:min-h-[680px] flex items-center overflow-hidden bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/src/assets/images/rajwada_palace_indore_1789903853353.jpg')",
+          backgroundImage: `url(${rajwadaHeroImage})`,
           backgroundPosition: 'center 40%',
         }}
       >

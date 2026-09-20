@@ -21,6 +21,7 @@ import {
   Phone, 
   Mail
 } from 'lucide-react';
+import indoreCivicEmblem from './assets/images/indore_civic_emblem_1789903869116.jpg';
 
 export default function App() {
   const [currentTab, setCurrentTab] = useState<NavigationTab>('landing');
@@ -292,7 +293,7 @@ export default function App() {
             <div className="space-y-3 md:col-span-1">
               <div className="flex items-center gap-2.5">
                 <img
-                  src="/src/assets/images/indore_civic_emblem_1789903869116.jpg"
+                  src={indoreCivicEmblem}
                   alt="Indore Civic Crest"
                   referrerPolicy="no-referrer"
                   className="w-9 h-9 object-contain rounded-lg border border-slate-200"
